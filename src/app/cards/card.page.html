@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      DBT Flash Cards
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="flash-cards">
+    <div class="flip-container" (click)="flip()" [class.flipped]="flipped">
+      <div class="flipper">
+    
+        <div class="front">
+          {{frontContent}}
+        </div>
+    
+        <div class="back">
+          {{backContent}}
+        </div>
+    
+      </div>
+    </div>
+  </div>
+</ion-content>
