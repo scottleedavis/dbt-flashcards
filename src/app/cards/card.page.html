@@ -11,13 +11,9 @@
     <div class="flip-container" (click)="flip()" [class.flipped]="flipped">
       <div class="flipper">
     
-        <div class="front">
-          {{frontContent}}
-        </div>
+        <div class="front" [innerHtml]="frontContent"></div>
     
-        <div class="back">
-          {{backContent}}
-        </div>
+        <div class="back" [innerHtml]="backContent"></div>
     
       </div>
     </div>

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 import { StateService } from 'src/app/state.service';
 import { data } from './data';
@@ -13,13 +14,16 @@ export class CardPage {
   public index = 0;
   public flipped : boolean = false;
 
-  public frontContent : string;
-  public backContent : string;
+  public frontContent : SafeHtml;
+  public backContent : SafeHtml;
 
-  constructor(public state: StateService) {
+  constructor(
+    public state: StateService,
+    public sanitizer: DomSanitizer,
+  ) {
     const randomizedData = this.shuffle(data);
-    this.frontContent = randomizedData[this.index].a;
-    this.backContent = randomizedData[this.index].b;
+    this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
+    this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
 
     state.subject.subscribe((f) => {
       if (f === "next") {
@@ -27,8 +31,9 @@ export class CardPage {
       } else if (f === "previous") {
         this.index = this.index - 1 < 0 ? data.length - 1 : this.index - 1;
       }
-      this.frontContent = randomizedData[this.index].a;
-      this.backContent = randomizedData[this.index].b;
+      this.flipped = false;
+      this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
+      this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
     });
   }
 
