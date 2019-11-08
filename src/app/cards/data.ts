@@ -89,11 +89,11 @@ export const data = [
     },
     {
         a: "Check the facts",
-        b: "Checkout whether your emotional reactions <b>fit the facts</b> of the situation.  Changeing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
+        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changeing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
     },
     {
-        a: "Opposite Acton",
-        b: "When your emotions do not fit the facts, <b>or</b> when acting on your emotions is not effective, acting opposite (all the way) will change your emotional reactions"
+        a: "Opposite Action",
+        b: "When your emotions do not fit the facts, or when acting on your emotions is not effective, acting opposite (all the way) will change your emotional reactions"
     },
     {
         a: "Problem Solving",
