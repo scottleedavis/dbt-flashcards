@@ -3,7 +3,7 @@
 
     #flash-cards {
       height: 100%;
-      font-size: x-large;
+      font-size: large;
 
       /*
        *  Flip animation by David Walsh: https://davidwalsh.name/css-flip
@@ -48,6 +48,7 @@
         position: absolute;
         top: 0;
         left: 0;
+        padding: 0px 20px;
       }
   
       /* front pane, placed above back */

@@ -126,8 +126,8 @@ export const data = [
         b: `
         <ul>
         <li><b>T</b>ip the teperature of your face with COLD WATER (to calm down fast)
-        <li><b>I</b>intense exercise (to calm down your body when it is revved up by emotion)
-        <li><b>P</b>aired muscle relaxation (to calm down by pariing muscle relaxation with breathing out)
+        <li><b>I</b>ntense exercise (to calm down your body when it is revved up by emotion)
+        <li><b>P</b>aired muscle relaxation (to calm down by pairing muscle relaxation with breathing out)
         </ul>
         `
     },
