@@ -103,7 +103,7 @@ export const data = [
         a: "ABC PLEASE",
         b: `
         <ul>
-        <li><b>A</b>ccumulate positive emtions.
+        <li><b>A</b>ccumulate positive emotions.
         <li><b>B</b>uild mastery
         <li><b>C</b>ope ahead of time with emotional situations
         <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise
