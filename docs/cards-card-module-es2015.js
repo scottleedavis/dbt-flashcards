@@ -391,7 +391,7 @@ let CardPage = class CardPage {
             else if (f === "previous") {
                 this.index = this.index - 1 < 0 ? _card_data__WEBPACK_IMPORTED_MODULE_4__["data"].length - 1 : this.index - 1;
             }
-            this.flipped = false;
+            // this.flipped = false;
             this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
             this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
             this.categoryContent = randomizedData[this.index].category;

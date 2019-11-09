@@ -246,7 +246,7 @@ var CardPage = /** @class */ (function () {
             else if (f === "previous") {
                 _this.index = _this.index - 1 < 0 ? _card_data__WEBPACK_IMPORTED_MODULE_4__["data"].length - 1 : _this.index - 1;
             }
-            _this.flipped = false;
+            // this.flipped = false;
             _this.frontContent = _this.sanitizer.bypassSecurityTrustHtml(randomizedData[_this.index].a);
             _this.backContent = _this.sanitizer.bypassSecurityTrustHtml(randomizedData[_this.index].b);
             _this.categoryContent = randomizedData[_this.index].category;

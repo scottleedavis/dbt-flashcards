@@ -33,7 +33,7 @@ export class CardPage {
       } else if (f === "previous") {
         this.index = this.index - 1 < 0 ? data.length - 1 : this.index - 1;
       }
-      this.flipped = false;
+      // this.flipped = false;
       this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
       this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
       this.categoryContent = randomizedData[this.index].category;
