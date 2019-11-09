@@ -111,6 +111,7 @@ var CardPage = /** @class */ (function () {
     }
     CardPage.prototype.swipeLeft = function () {
         this.state.update("next");
+        alert("next");
     };
     CardPage.prototype.swipeRight = function () {
         this.state.update("previous");

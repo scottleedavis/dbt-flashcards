@@ -39,6 +39,7 @@ export class CardPage {
 
   swipeLeft() {
     this.state.update("next");
+    alert("next")
   }
 
   swipeRight() {
