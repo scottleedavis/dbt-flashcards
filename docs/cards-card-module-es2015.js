@@ -91,7 +91,7 @@ const data = [
         <li><b>Don't Read minds</b>: Be sensitive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>
         <li><b>Understand</b>: Look for how what the other person is feeling, thinking, or doing makes sense, based on the person's past/present experiences.</li>
         <li><b>Acknowledge the Valid</b>: Look for how the person's feelings, thinking, or actions are valid responses.</li>
-        <li><b>Show Equality</b>: Be yourself.  Don't "one up" or "one down" the other person.  The the other as an equal</li>
+        <li><b>Show Equality</b>: Be yourself.  Don't "one up" or "one down" the other person.  Treat the other as an equal</li>
         </ul>
         `
     },
