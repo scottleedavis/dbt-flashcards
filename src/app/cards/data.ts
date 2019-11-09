@@ -69,7 +69,7 @@ export const data = [
         a: "Keeping Respect for yourself (FAST)",
         b: `
         <ul>
-        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>
+        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person.  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>
         <li><b>Apologies</b>: Don't overapologize.  No apologizing for being alive or making a request or having an opinion or disagreeing.  No LOOKING ASHAMED.</li>
         <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't seel out your values or integrity for reasons that aren't VERY important.  "Stick to your guns."</li>
         <li><b>Truthful</b>: Don't lie.  Don't act helpless when you are not.  Don't exaggerate or make up excuses.</li>
