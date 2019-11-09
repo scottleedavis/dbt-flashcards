@@ -107,7 +107,6 @@ let CardPage = class CardPage {
     }
     swipeLeft() {
         this.state.update("next");
-        alert("next");
     }
     swipeRight() {
         this.state.update("previous");
