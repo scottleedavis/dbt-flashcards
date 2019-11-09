@@ -9,7 +9,7 @@ export const data = [
         <ul>
         <li><b>Observe</b>: Notice your body sensations, Pay attention, Control your attention, Practice wordless watching, Observe both inside and outside yourself</li>
         <li><b>Describe</b>: Put words on the experience.  Label what you observe.  Unglue your interpretations and opinions.  Remember, if you can't observe it through your senses you can't describe it.</li>
-        <li><b>Participate</b>: Throw yourself copletely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>
+        <li><b>Participate</b>: Throw yourself completely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>
         </ul>
         `,
     },
