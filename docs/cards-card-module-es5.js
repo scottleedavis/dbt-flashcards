@@ -167,7 +167,7 @@ var data = [
     },
     {
         a: "Taking Hold of Your Mind: \"How\" skills",
-        b: "\n        <ul>\n        <li><b>Non-Judgementally</b>: See, but don't evaluate as good or bad.  Accept each moment like a blanket spread out on the lawn.  Acknowledge but don't judge.  Don't judge your judging.</li>\n        <li><b>One-Mindfully</b>: Rivet yourself to now.  Do one thing at a time.  Let go of distractions.  Concentrate your mind</li>\n        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rueles.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>\n        </ul>\n        ",
+        b: "\n        <ul>\n        <li><b>Non-Judgementally</b>: See, but don't evaluate as good or bad.  Accept each moment like a blanket spread out on the lawn.  Acknowledge but don't judge.  Don't judge your judging.</li>\n        <li><b>One-Mindfully</b>: Rivet yourself to now.  Do one thing at a time.  Let go of distractions.  Concentrate your mind</li>\n        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rules.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>\n        </ul>\n        ",
     },
     {
         a: "Right vs. Effective",
@@ -183,7 +183,7 @@ var data = [
     },
     {
         a: "Levels of Validation",
-        b: "\n        <ul>\n        <li><b>Pay Attention</b>: Look interested in the other person instead of bored.  No multitasking</li>\n        <li><b>Reflect Back</b>: Say back what you heard the other person say or do.  No judgemental language or tone of voice.</li>\n        <li><b>Don't Read minds</b>: Be sesntive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>\n        <li><b>Understand</b>: Look for how what the other person is feeling, thinking, or doing makes sense, based on the person's past/present experiences.</li>\n        <li><b>Acknowledge the Valid</b>: Look for how the person's feelings, thinking, or actions are valid responses.</li>\n        <li><b>Show Equality</b>: Be yourself.  Don't \"one up\" or \"one down\" the other person.  The the other as an equal</li>\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>Pay Attention</b>: Look interested in the other person instead of bored.  No multitasking</li>\n        <li><b>Reflect Back</b>: Say back what you heard the other person say or do.  No judgemental language or tone of voice.</li>\n        <li><b>Don't Read minds</b>: Be sensitive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>\n        <li><b>Understand</b>: Look for how what the other person is feeling, thinking, or doing makes sense, based on the person's past/present experiences.</li>\n        <li><b>Acknowledge the Valid</b>: Look for how the person's feelings, thinking, or actions are valid responses.</li>\n        <li><b>Show Equality</b>: Be yourself.  Don't \"one up\" or \"one down\" the other person.  The the other as an equal</li>\n        </ul>\n        "
     },
     {
         a: "Keeping Respect for yourself (FAST)",
@@ -195,7 +195,7 @@ var data = [
     },
     {
         a: "Check the facts",
-        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changeing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
+        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
     },
     {
         a: "Opposite Action",
@@ -207,15 +207,15 @@ var data = [
     },
     {
         a: "ABC PLEASE",
-        b: "\n        <ul>\n        <li><b>A</b>: Accumulate positive emtions.\n        <li><b>B</b>: Build mastery\n        <li><b>C</b>: Cope ahead of time with emotional situations\n        <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>A</b>ccumulate positive emtions.\n        <li><b>B</b>uild mastery\n        <li><b>C</b>ope ahead of time with emotional situations\n        <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise\n        </ul>\n        "
     },
     {
         a: "STOP",
-        b: "\n        <ul>\n        <li><b>S</b>top: Do not just react.  Stop!  Stay in control!\n        <li><b>T</b>ake a step back: Take a break.  Let go.  Do not let your feelings make you act impulsively.\n        <li><b>O</b>bserve: Notice what is going on inside and outside you.  What is the situation?  What are your thoughts and feelings?  What are others saying or doing?\n        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Min: What actions will make it better or worse?\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>S</b>top: Do not just react.  Stop!  Stay in control!\n        <li><b>T</b>ake a step back: Take a break.  Let go.  Do not let your feelings make you act impulsively.\n        <li><b>O</b>bserve: Notice what is going on inside and outside you.  What is the situation?  What are your thoughts and feelings?  What are others saying or doing?\n        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Mind: What actions will make it better or worse?\n        </ul>\n        "
     },
     {
         a: "TIP skills",
-        b: "\n        <ul>\n        <li><b>T</b>ip the teperature of your face with COLD WATER (to calm down fast)\n        <li><b>I</b>ntense exercise (to calm down your body when it is revved up by emotion)\n        <li><b>P</b>aired muscle relaxation (to calm down by pairing muscle relaxation with breathing out)\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>T</b>ip the temperature of your face with COLD WATER (to calm down fast)\n        <li><b>I</b>ntense exercise (to calm down your body when it is revved up by emotion)\n        <li><b>P</b>aced Breathing (slow, deep breathing soothes the nervous system and increases oxygen flow)\n        <li><b>P</b>aired muscle relaxation (to calm down by pairing muscle relaxation with breathing out)\n        </ul>\n        "
     },
     {
         a: "What is radical acceptance?",

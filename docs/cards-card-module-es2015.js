@@ -172,7 +172,7 @@ const data = [
         <ul>
         <li><b>Non-Judgementally</b>: See, but don't evaluate as good or bad.  Accept each moment like a blanket spread out on the lawn.  Acknowledge but don't judge.  Don't judge your judging.</li>
         <li><b>One-Mindfully</b>: Rivet yourself to now.  Do one thing at a time.  Let go of distractions.  Concentrate your mind</li>
-        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rueles.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>
+        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rules.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>
         </ul>
         `,
     },
@@ -211,7 +211,7 @@ const data = [
         <ul>
         <li><b>Pay Attention</b>: Look interested in the other person instead of bored.  No multitasking</li>
         <li><b>Reflect Back</b>: Say back what you heard the other person say or do.  No judgemental language or tone of voice.</li>
-        <li><b>Don't Read minds</b>: Be sesntive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>
+        <li><b>Don't Read minds</b>: Be sensitive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>
         <li><b>Understand</b>: Look for how what the other person is feeling, thinking, or doing makes sense, based on the person's past/present experiences.</li>
         <li><b>Acknowledge the Valid</b>: Look for how the person's feelings, thinking, or actions are valid responses.</li>
         <li><b>Show Equality</b>: Be yourself.  Don't "one up" or "one down" the other person.  The the other as an equal</li>
@@ -242,7 +242,7 @@ const data = [
     },
     {
         a: "Check the facts",
-        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changeing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
+        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
     },
     {
         a: "Opposite Action",
@@ -256,9 +256,9 @@ const data = [
         a: "ABC PLEASE",
         b: `
         <ul>
-        <li><b>A</b>: Accumulate positive emtions.
-        <li><b>B</b>: Build mastery
-        <li><b>C</b>: Cope ahead of time with emotional situations
+        <li><b>A</b>ccumulate positive emtions.
+        <li><b>B</b>uild mastery
+        <li><b>C</b>ope ahead of time with emotional situations
         <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise
         </ul>
         `
@@ -270,7 +270,7 @@ const data = [
         <li><b>S</b>top: Do not just react.  Stop!  Stay in control!
         <li><b>T</b>ake a step back: Take a break.  Let go.  Do not let your feelings make you act impulsively.
         <li><b>O</b>bserve: Notice what is going on inside and outside you.  What is the situation?  What are your thoughts and feelings?  What are others saying or doing?
-        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Min: What actions will make it better or worse?
+        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Mind: What actions will make it better or worse?
         </ul>
         `
     },
@@ -278,8 +278,9 @@ const data = [
         a: "TIP skills",
         b: `
         <ul>
-        <li><b>T</b>ip the teperature of your face with COLD WATER (to calm down fast)
+        <li><b>T</b>ip the temperature of your face with COLD WATER (to calm down fast)
         <li><b>I</b>ntense exercise (to calm down your body when it is revved up by emotion)
+        <li><b>P</b>aced Breathing (slow, deep breathing soothes the nervous system and increases oxygen flow)
         <li><b>P</b>aired muscle relaxation (to calm down by pairing muscle relaxation with breathing out)
         </ul>
         `
