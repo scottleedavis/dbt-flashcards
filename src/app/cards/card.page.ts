@@ -60,5 +60,12 @@ export class CardPage {
     return array;
   }
 
+  clickPrevious() {
+    this.state.update("previous");
+  }
+
+  clickNext() {
+    this.state.update("next");
+  }
   
 }

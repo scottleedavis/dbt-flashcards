@@ -470,7 +470,7 @@ __webpack_require__.r(__webpack_exports__);
 var routes = [
     {
         path: '',
-        loadChildren: function () { return __webpack_require__.e(/*! import() | nav-nav-module */ "nav-nav-module").then(__webpack_require__.bind(null, /*! ./nav/nav.module */ "./src/app/nav/nav.module.ts")).then(function (m) { return m.TabsPageModule; }); }
+        loadChildren: function () { return __webpack_require__.e(/*! import() | cards-card-module */ "cards-card-module").then(__webpack_require__.bind(null, /*! ./cards/card.module */ "./src/app/cards/card.module.ts")).then(function (m) { return m.CardPageModule; }); }
     }
 ];
 var AppRoutingModule = /** @class */ (function () {

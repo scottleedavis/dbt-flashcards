@@ -14,4 +14,4 @@ import { CardPage } from './card.page';
   ],
   declarations: [CardPage]
 })
-export class Tab2PageModule {}
+export class CardPageModule {}

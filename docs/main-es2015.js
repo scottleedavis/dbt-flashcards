@@ -464,7 +464,7 @@ __webpack_require__.r(__webpack_exports__);
 const routes = [
     {
         path: '',
-        loadChildren: () => __webpack_require__.e(/*! import() | nav-nav-module */ "nav-nav-module").then(__webpack_require__.bind(null, /*! ./nav/nav.module */ "./src/app/nav/nav.module.ts")).then(m => m.TabsPageModule)
+        loadChildren: () => __webpack_require__.e(/*! import() | cards-card-module */ "cards-card-module").then(__webpack_require__.bind(null, /*! ./cards/card.module */ "./src/app/cards/card.module.ts")).then(m => m.CardPageModule)
     }
 ];
 let AppRoutingModule = class AppRoutingModule {

@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n"
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
 
 /***/ }),
 
@@ -15,12 +15,12 @@ module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flas
 /*!**************************************!*\
   !*** ./src/app/cards/card.module.ts ***!
   \**************************************/
-/*! exports provided: Tab2PageModule */
+/*! exports provided: CardPageModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tab2PageModule", function() { return Tab2PageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CardPageModule", function() { return CardPageModule; });
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
 /* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm2015/router.js");
@@ -35,9 +35,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-let Tab2PageModule = class Tab2PageModule {
+let CardPageModule = class CardPageModule {
 };
-Tab2PageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+CardPageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
     Object(_angular_core__WEBPACK_IMPORTED_MODULE_3__["NgModule"])({
         imports: [
             _ionic_angular__WEBPACK_IMPORTED_MODULE_1__["IonicModule"],
@@ -47,7 +47,7 @@ Tab2PageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         ],
         declarations: [_card_page__WEBPACK_IMPORTED_MODULE_6__["CardPage"]]
     })
-], Tab2PageModule);
+], CardPageModule);
 
 
 
@@ -121,6 +121,12 @@ let CardPage = class CardPage {
             array[randomIndex] = temporaryValue;
         }
         return array;
+    }
+    clickPrevious() {
+        this.state.update("previous");
+    }
+    clickNext() {
+        this.state.update("next");
     }
 };
 CardPage.ctorParameters = () => [
@@ -296,6 +302,41 @@ const data = [
         `
     }
 ];
+
+
+/***/ }),
+
+/***/ "./src/app/state.service.ts":
+/*!**********************************!*\
+  !*** ./src/app/state.service.ts ***!
+  \**********************************/
+/*! exports provided: StateService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StateService", function() { return StateService; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm2015/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm2015/index.js");
+
+
+
+let StateService = class StateService {
+    constructor() {
+        this.subject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](null);
+    }
+    update(action) {
+        this.subject.next(action);
+    }
+};
+StateService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+    Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
+        providedIn: 'root'
+    }),
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+], StateService);
+
 
 
 /***/ })
