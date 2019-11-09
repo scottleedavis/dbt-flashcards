@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\" (swipeLeft)=\"swipeLeft()\" (swipeRight)=\"swipeRight()\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
 
 /***/ }),
 
@@ -109,6 +109,12 @@ var CardPage = /** @class */ (function () {
             _this.backContent = _this.sanitizer.bypassSecurityTrustHtml(randomizedData[_this.index].b);
         });
     }
+    CardPage.prototype.swipeLeft = function () {
+        this.state.update("next");
+    };
+    CardPage.prototype.swipeRight = function () {
+        this.state.update("previous");
+    };
     CardPage.prototype.flip = function () {
         this.flipped = !this.flipped;
     };
@@ -169,7 +175,7 @@ var data = [
     },
     {
         a: "Taking Hold of Your Mind: \"What\" skills",
-        b: "\n        <ul>\n        <li><b>Observe</b>: Notice your body sensations, Pay attention, Control your attention, Practice wordless watching, Observe both inside and outside yourself</li>\n        <li><b>Describe</b>: Put words on the experience.  Label what you observe.  Unglue your interpretations and opinions.  Remember, if you can't observe it through your senses you can't describe it.</li>\n        <li><b>Participate</b>: Throw yourself copletely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>\n        </ul>\n        ",
+        b: "\n        <ul>\n        <li><b>Observe</b>: Notice your body sensations, Pay attention, Control your attention, Practice wordless watching, Observe both inside and outside yourself</li>\n        <li><b>Describe</b>: Put words on the experience.  Label what you observe.  Unglue your interpretations and opinions.  Remember, if you can't observe it through your senses you can't describe it.</li>\n        <li><b>Participate</b>: Throw yourself completely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>\n        </ul>\n        ",
     },
     {
         a: "Taking Hold of Your Mind: \"How\" skills",
@@ -181,7 +187,7 @@ var data = [
     },
     {
         a: "DEAR MAN",
-        b: "\n        <ul>\n        <li><b>Describe</b>: Describe the current situation.  Stick to the facts</li>\n        <li><b>Express</b>: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>\n        <li><b>Assert</b>: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>\n        <li><b>Reinforce</b>: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>\n        <li><b>Mindful</b>: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>\n        <li><b>Appear confident</b>: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>\n        <li><b>Negotiate</b>: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>D</b>escribe: Describe the current situation.  Stick to the facts</li>\n        <li><b>E</b>express: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>\n        <li><b>A</b>ssert: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>\n        <li><b>R</b>einforce: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>\n        <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>\n        <li><b>A</b>ppear confident: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>\n        <li><b>N</b>egotiate: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>\n        </ul>\n        "
     },
     {
         a: "GIVE (DEAR MAN, GIVE)",
@@ -193,7 +199,7 @@ var data = [
     },
     {
         a: "Keeping Respect for yourself (FAST)",
-        b: "\n        <ul>\n        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>\n        <li><b>Apologies</b>: Don't overapologize.  No apologizing for being alive or making a request or having an opinion or disagreeing.  No LOOKING ASHAMED.</li>\n        <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't seel out your values or integrity for reasons that aren't VERY important.  \"Stick to your guns.\"</li>\n        <li><b>Truthful</b>: Don't lie.  Don't act helpless when you are not.  Don't exaggerate or make up excuses.</li>\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person.  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>\n        <li><b>Apologies</b>: Don't overapologize.  No apologizing for being alive or making a request or having an opinion or disagreeing.  No LOOKING ASHAMED.</li>\n        <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't sell out your values or integrity for reasons that aren't VERY important.  \"Stick to your guns.\"</li>\n        <li><b>Truthful</b>: Don't lie.  Don't act helpless when you are not.  Don't exaggerate or make up excuses.</li>\n        </ul>\n        "
     },
     {
         a: "Dialectics",
@@ -213,7 +219,7 @@ var data = [
     },
     {
         a: "ABC PLEASE",
-        b: "\n        <ul>\n        <li><b>A</b>ccumulate positive emtions.\n        <li><b>B</b>uild mastery\n        <li><b>C</b>ope ahead of time with emotional situations\n        <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>A</b>ccumulate positive emotions.\n        <li><b>B</b>uild mastery\n        <li><b>C</b>ope ahead of time with emotional situations\n        <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise\n        </ul>\n        "
     },
     {
         a: "STOP",

@@ -7,7 +7,7 @@
 </ion-header>
 
 <ion-content>
-  <div id="flash-cards">
+  <div id="flash-cards" (swipeLeft)="swipeLeft()" (swipeRight)="swipeRight()">
     <div class="flip-container" (click)="flip()" [class.flipped]="flipped">
       <div class="flipper">
     

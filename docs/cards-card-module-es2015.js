@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      DBT Flash Cards\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\" (swipeLeft)=\"swipeLeft()\" (swipeRight)=\"swipeRight()\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
 
 /***/ }),
 
@@ -105,6 +105,12 @@ let CardPage = class CardPage {
             this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
         });
     }
+    swipeLeft() {
+        this.state.update("next");
+    }
+    swipeRight() {
+        this.state.update("previous");
+    }
     flip() {
         this.flipped = !this.flipped;
     }
@@ -168,7 +174,7 @@ const data = [
         <ul>
         <li><b>Observe</b>: Notice your body sensations, Pay attention, Control your attention, Practice wordless watching, Observe both inside and outside yourself</li>
         <li><b>Describe</b>: Put words on the experience.  Label what you observe.  Unglue your interpretations and opinions.  Remember, if you can't observe it through your senses you can't describe it.</li>
-        <li><b>Participate</b>: Throw yourself copletely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>
+        <li><b>Participate</b>: Throw yourself completely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>
         </ul>
         `,
     },
@@ -190,13 +196,13 @@ const data = [
         a: "DEAR MAN",
         b: `
         <ul>
-        <li><b>Describe</b>: Describe the current situation.  Stick to the facts</li>
-        <li><b>Express</b>: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
-        <li><b>Assert</b>: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
-        <li><b>Reinforce</b>: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
-        <li><b>Mindful</b>: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
-        <li><b>Appear confident</b>: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
-        <li><b>Negotiate</b>: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>
+        <li><b>D</b>escribe: Describe the current situation.  Stick to the facts</li>
+        <li><b>E</b>express: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
+        <li><b>A</b>ssert: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
+        <li><b>R</b>einforce: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
+        <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
+        <li><b>A</b>ppear confident: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
+        <li><b>N</b>egotiate: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>
         </ul>
         `
     },
@@ -228,9 +234,9 @@ const data = [
         a: "Keeping Respect for yourself (FAST)",
         b: `
         <ul>
-        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>
+        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person.  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>
         <li><b>Apologies</b>: Don't overapologize.  No apologizing for being alive or making a request or having an opinion or disagreeing.  No LOOKING ASHAMED.</li>
-        <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't seel out your values or integrity for reasons that aren't VERY important.  "Stick to your guns."</li>
+        <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't sell out your values or integrity for reasons that aren't VERY important.  "Stick to your guns."</li>
         <li><b>Truthful</b>: Don't lie.  Don't act helpless when you are not.  Don't exaggerate or make up excuses.</li>
         </ul>
         `
@@ -262,7 +268,7 @@ const data = [
         a: "ABC PLEASE",
         b: `
         <ul>
-        <li><b>A</b>ccumulate positive emtions.
+        <li><b>A</b>ccumulate positive emotions.
         <li><b>B</b>uild mastery
         <li><b>C</b>ope ahead of time with emotional situations
         <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise

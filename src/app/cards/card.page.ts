@@ -37,7 +37,15 @@ export class CardPage {
     });
   }
 
-  public flip() {
+  swipeLeft() {
+    this.state.update("next");
+  }
+
+  swipeRight() {
+    this.state.update("previous");
+  }
+
+  flip() {
     this.flipped = !this.flipped;
   }
   
