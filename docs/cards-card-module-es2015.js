@@ -166,10 +166,10 @@ const data = [
         b: `
         <ul>
         <li>Step back and just notice your emotion
-        <li>Experience your emotion as a WAVE, comig and going.
+        <li>Experience your emotion as a WAVE, coming and going.
         <li>Try not to BLOCK or SUPPRESS the emotion
         <li>Experience the SENSATIONS as fully as you can
-        <li>Do not necccessarily ACT on your emotion
+        <li>Do not necessarily ACT on your emotion
         <li>Radically ACCEPT your emotion
         </ul>
         `
@@ -267,9 +267,9 @@ const data = [
         a: "Half-Smiling",
         b: `
         <ol>
-        <li>Rleax your face from the top of your head down to your chin and jaw.  Let go of each facial muscle.  Try tensing your facial muscles and letting go
+        <li>Relax your face from the top of your head down to your chin and jaw.  Let go of each facial muscle.  Try tensing your facial muscles and letting go
         <li>Let both corners of your lips go slightly up, just so you can feel them.  A half-smile is slightly upturned lips with a relaxed face.
-        <li>Try to adopt a serene facial expression.  Remember, your face communicates to your brain; your boedy connects to your mind.
+        <li>Try to adopt a serene facial expression.  Remember, your face communicates to your brain; your body connects to your mind.
         </ol>
         `
     },
