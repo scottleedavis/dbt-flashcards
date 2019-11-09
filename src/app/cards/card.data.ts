@@ -1,9 +1,11 @@
 export const data = [
     {
+        category: "Mindfulness",
         a: "Wise Mind: States of Mind",
         b: "<img src=\"https://i.pinimg.com/originals/06/62/9a/06629a5942e4b4779d23d686bde4afee.png\">",
     },
     {
+        category: "Mindfulness",
         a: "Taking Hold of Your Mind: \"What\" skills",
         b: `
         <ul>
@@ -14,6 +16,7 @@ export const data = [
         `,
     },
     {
+        category: "Mindfulness",
         a: "Taking Hold of Your Mind: \"How\" skills",
         b: `
         <ul>
@@ -24,24 +27,27 @@ export const data = [
         `,
     },
     {
+        category: "Mindfulness",
         a: "Right vs. Effective",
         b: "It is better to be effective than right."
     },
     {
+        category: "Interpersonal Effectiveness",
         a: "DEAR MAN",
         b: `
         <ul>
-        <li><b>D</b>escribe: Describe the current situation.  Stick to the facts</li>
-        <li><b>E</b>express: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
-        <li><b>A</b>ssert: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
-        <li><b>R</b>einforce: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
+        <li><b>D</b>escribe the current situation.  Stick to the facts</li>
+        <li><b>E</b>express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
+        <li><b>A</b>ssert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
+        <li><b>R</b>einforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
         <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
-        <li><b>A</b>ppear confident: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
+        <li><b>A</b>ppear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
         <li><b>N</b>egotiate: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>
         </ul>
         `
     },
     {
+        category: "Interpersonal Effectiveness",
         a: "GIVE (DEAR MAN, GIVE)",
         b: `
         <ul>
@@ -53,6 +59,7 @@ export const data = [
         `
     },
     {
+        category: "Interpersonal Effectiveness",
         a: "Levels of Validation",
         b: `
         <ul>
@@ -66,6 +73,7 @@ export const data = [
         `
     },
     {
+        category: "Interpersonal Effectiveness",
         a: "Keeping Respect for yourself (FAST)",
         b: `
         <ul>
@@ -77,6 +85,7 @@ export const data = [
         `
     },
     {
+        category: "Interpersonal Effectiveness",
         a: "Dialectics",
         b: `
         <ol>
@@ -88,18 +97,36 @@ export const data = [
         `
     },
     {
+        category: "Interpersonal Effectiveness",
+        a: "Strategies to change behavior",
+        b: `
+        <ul>
+        <li><b>Positive</b> reinforcement = positive consequences (reward)
+        <li><b>Negative</b> reinforcement = removal of negative events (relief)
+        <li><b>Shaping</b> = Reinforcing small steps toward the behavior you want
+        <li><b>Extinction</b> = Stopping an ongoing reinforcement of behavior
+        <li><b>Satiation</b> = Providing relief or what is wanted before the behavior occurs
+        <li><b>Punishment</b> = An aversive consequence that decreases a behavior
+        </ul>
+        `
+    },
+    {
+        category: "Emotion Regulation",
         a: "Check the facts",
         b: "Checkout whether your emotional reactions fit the facts of the situation.  Changing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
     },
     {
+        category: "Emotion Regulation",
         a: "Opposite Action",
         b: "When your emotions do not fit the facts, or when acting on your emotions is not effective, acting opposite (all the way) will change your emotional reactions"
     },
     {
+        category: "Emotion Regulation",
         a: "Problem Solving",
         b: "When the facts themselves are the problem, solving the problem will reduce the frequency of negative emotions."
     },
     {
+        category: "Emotion Regulation",
         a: "ABC PLEASE",
         b: `
         <ul>
@@ -111,6 +138,21 @@ export const data = [
         `
     },
     {
+        category: "Emotion Regulation",
+        a: "Mindfulness of current emotion",
+        b: `
+        <ul>
+        <li>Step back and just notice your emotion
+        <li>Experience your emotion as a WAVE, comig and going.
+        <li>Try not to BLOCK or SUPPRESS the emotion
+        <li>Experience the SENSATIONS as fully as you can
+        <li>Do not necccessarily ACT on your emotion
+        <li>Radically ACCEPT your emotion
+        </ul>
+        `
+    },
+    {
+        category: "Distress Tolerance",
         a: "STOP",
         b: `
         <ul>
@@ -122,6 +164,14 @@ export const data = [
         `
     },
     {
+        category: "Distress Tolerance",
+        a: "Pros and Cons",
+        b: `
+        <img src="http://1.bp.blogspot.com/-Rr0VQOCzqVs/UYcXf7ceOGI/AAAAAAAAAC4/Arp5FtCQA7c/s1600/DBT+Pros+and+Cons.png">
+        `
+    },
+    {
+        category: "Distress Tolerance",
         a: "TIP skills",
         b: `
         <ul>
@@ -133,12 +183,93 @@ export const data = [
         `
     },
     {
+        category: "Distress Tolerance",
+        a: "Distracting",
+        b: `
+        <b>Wise Mind ACCEPTS</b>
+        <ul>
+        <li><b>A</b>ctivities
+        <li><b>C</b>ontributing
+        <li><b>C</b>omparisons
+        <li><b>E</b>motions
+        <li><b>P</b>ushing away
+        <li><b>T</b>houghts
+        <li><b>S</b>ensations
+        </ul>
+        `
+    },
+    {
+        category: "Distress Tolerance",
+        a: "Self-Soothing",
+        b: `
+        <b>FIVE SENSES</b>
+        <ul>
+        <li><b>Vision</b>
+        <li><b>Hearing</b>
+        <li><b>Smell</b>
+        <li><b>Taste</b>
+        <li><b>Touch</b>
+        </ul>
+        `
+    },
+    {
+        category: "Distress Tolerance",
+        a: "Improving the Moment",
+        b: `
+        <b>IMPROVE</b>
+        <ul>
+        <li><b>I</b>magery
+        <li><b>M</b>eaning
+        <li><b>P</b>rayer or Peace
+        <li><b>R</b>elaxing
+        <li>With <b>O</b>ne thing in the moment
+        <li>With a brief <b>V</b>acation
+        <li>With self-<b>E</b>ncouragement and rethinking the situation
+        </ul>
+        `
+    },
+    {
+        category: "Distress Tolerance",
         a: "What is radical acceptance?",
         b: `
         <ol>
         <li>Radical means all the way, complete and total
         <li>It is accepting in your mind, your heart, and your body.
         <li>It's when you stop fighting reality, stop throwing tantrums because reality is not the way you want it, and let go of bitterness
+        </ol>
+        `
+    },
+    {
+        category: "Distress Tolerance",
+        a: "Half-Smiling",
+        b: `
+        <ol>
+        <li>Rleax your face from the top of your head down to your chin and jaw.  Let go of each facial muscle.  Try tensing your facial muscles and letting go
+        <li>Let both corners of your lips go slightly up, just so you can feel them.  A half-smile is slightly upturned lips with a relaxed face.
+        <li>Try to adopt a serene facial expression.  Remember, your face communicates to your brain; your boedy connects to your mind.
+        </ol>
+        `
+    },
+    {
+        category: "Distress Tolerance",
+        a: "Willing Hands",
+        b: `
+        <ol>
+        <li>Drop your arms down from your shoulders; keep them straight or bent slightly at the elbows.  With hands unclenched, turn your hands outwards, palms up.
+        <li>Place your hands on your lap or your thighs.  With hands unclenched, turn your hands outward, with palms up and fingers relaxed.
+        <li>Arms by your side, hands unclenched, turn your palms up with fingers relaxed.
+        </ol>
+        `
+    },
+    {
+        category: "Distress Tolerance",
+        a: "Mindfulness of Current Thoughts",
+        b: `
+        <ol>
+        <li>Observe your thoughts
+        <li>Adopt a curious mind
+        <li>Remember: You are not your thoughts
+        <li>Don't block or suppress thoughts
         </ol>
         `
     }

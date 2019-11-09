@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
 
 import { StateService } from 'src/app/state.service';
-import { data } from './data';
+import { data } from './card.data';
 
 @Component({
   selector: 'app-tab2',
@@ -16,6 +16,7 @@ export class CardPage {
 
   public frontContent : SafeHtml;
   public backContent : SafeHtml;
+  public categoryContent : string;
 
   constructor(
     public state: StateService,
@@ -24,6 +25,7 @@ export class CardPage {
     const randomizedData = this.shuffle(data);
     this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
     this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
+    this.categoryContent = randomizedData[this.index].category;
 
     state.subject.subscribe((f) => {
       if (f === "next") {
@@ -34,6 +36,7 @@ export class CardPage {
       this.flipped = false;
       this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
       this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
+      this.categoryContent = randomizedData[this.index].category;
     });
   }
 
