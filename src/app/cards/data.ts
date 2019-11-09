@@ -19,7 +19,7 @@ export const data = [
         <ul>
         <li><b>Non-Judgementally</b>: See, but don't evaluate as good or bad.  Accept each moment like a blanket spread out on the lawn.  Acknowledge but don't judge.  Don't judge your judging.</li>
         <li><b>One-Mindfully</b>: Rivet yourself to now.  Do one thing at a time.  Let go of distractions.  Concentrate your mind</li>
-        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rueles.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>
+        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rules.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>
         </ul>
         `,
     },
