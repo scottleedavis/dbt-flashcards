@@ -131,4 +131,14 @@ export const data = [
         </ul>
         `
     },
+    {
+        a: "What is radical acceptance?",
+        b: `
+        <ol>
+        <li>Radical means all the way, complete and total
+        <li>It is accepting in your mind, your heart, and your body.
+        <li>It's when you stop fighting reality, stop throwing tantrums because reality is not the way you want it, and let go of bitterness
+        </ol>
+        `
+    }
 ];
