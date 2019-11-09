@@ -89,7 +89,7 @@ export const data = [
     },
     {
         a: "Check the facts",
-        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changeing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
+        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
     },
     {
         a: "Opposite Action",
