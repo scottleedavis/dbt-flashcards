@@ -31,13 +31,13 @@ export const data = [
         a: "DEAR MAN",
         b: `
         <ul>
-        <li><b>Describe</b>: Describe the current situation.  Stick to the facts</li>
-        <li><b>Express</b>: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
-        <li><b>Assert</b>: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
-        <li><b>Reinforce</b>: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
-        <li><b>Mindful</b>: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
-        <li><b>Appear confident</b>: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
-        <li><b>Negotiate</b>: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>
+        <li><b>D</b>escribe: Describe the current situation.  Stick to the facts</li>
+        <li><b>E</b>express: Express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
+        <li><b>A</b>ssert: Assert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
+        <li><b>R</b>einforce: Reinforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
+        <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
+        <li><b>A</b>ppear confident: Appear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>
+        <li><b>N</b>egotiate: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>
         </ul>
         `
     },
