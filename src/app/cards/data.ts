@@ -117,7 +117,7 @@ export const data = [
         <li><b>S</b>top: Do not just react.  Stop!  Stay in control!
         <li><b>T</b>ake a step back: Take a break.  Let go.  Do not let your feelings make you act impulsively.
         <li><b>O</b>bserve: Notice what is going on inside and outside you.  What is the situation?  What are your thoughts and feelings?  What are others saying or doing?
-        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Min: What actions will make it better or worse?
+        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Mind: What actions will make it better or worse?
         </ul>
         `
     },
