@@ -1,0 +1,18 @@
+<ion-header translucent>
+    <ion-toolbar>
+      <ion-title>Search</ion-title>
+      <ion-buttons slot="primary">
+        <ion-button color="primary" (click)="close()">
+          <ion-icon slot="end" name="close"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+    <ion-toolbar>
+      <ion-searchbar (ionChange)="filter($event)"></ion-searchbar>
+    </ion-toolbar>
+  </ion-header>
+  <ion-content fullscreen>
+    <ion-list>
+      <ion-item *ngFor="let card of filteredCards"><ion-button (click)="select(card)" fill="clear" >{{ card.category }}: {{ card.a }}</ion-button></ion-item>
+    </ion-list>
+  </ion-content>

@@ -7,148 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      {{ categoryContent }}\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\" (swipeLeft)=\"swipeLeft()\" (swipeRight)=\"swipeRight()\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
-
-/***/ }),
-
-/***/ "./src/app/cards/card.data.ts":
-/*!************************************!*\
-  !*** ./src/app/cards/card.data.ts ***!
-  \************************************/
-/*! exports provided: data */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
-var data = [
-    {
-        category: "Mindfulness",
-        a: "Wise Mind: States of Mind",
-        b: "<img src=\"https://i.pinimg.com/originals/06/62/9a/06629a5942e4b4779d23d686bde4afee.png\">",
-    },
-    {
-        category: "Mindfulness",
-        a: "Taking Hold of Your Mind: \"What\" skills",
-        b: "\n        <ul>\n        <li><b>Observe</b>: Notice your body sensations, Pay attention, Control your attention, Practice wordless watching, Observe both inside and outside yourself</li>\n        <li><b>Describe</b>: Put words on the experience.  Label what you observe.  Unglue your interpretations and opinions.  Remember, if you can't observe it through your senses you can't describe it.</li>\n        <li><b>Participate</b>: Throw yourself completely into activities of the current moment.  Become one with whatever you are doing.  Act intuitively from Wise Mind.  Go with the flow.</li>\n        </ul>\n        ",
-    },
-    {
-        category: "Mindfulness",
-        a: "Taking Hold of Your Mind: \"How\" skills",
-        b: "\n        <ul>\n        <li><b>Non-Judgementally</b>: See, but don't evaluate as good or bad.  Accept each moment like a blanket spread out on the lawn.  Acknowledge but don't judge.  Don't judge your judging.</li>\n        <li><b>One-Mindfully</b>: Rivet yourself to now.  Do one thing at a time.  Let go of distractions.  Concentrate your mind</li>\n        <li><b>Effectively</b>: Be mindful of your goals in the situtation.  Focus on what works.  Play by the rules.  Act as skillfully as your can.  Let go of willfulness and sitting on your hands.</li>\n        </ul>\n        ",
-    },
-    {
-        category: "Mindfulness",
-        a: "Right vs. Effective",
-        b: "It is better to be effective than right."
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "DEAR MAN",
-        b: "\n        <ul>\n        <li><b>D</b>escribe the current situation.  Stick to the facts</li>\n        <li><b>E</b>express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>\n        <li><b>A</b>ssert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>\n        <li><b>R</b>einforce the person ahead of time by expaining postive effect of getting what you want or need.</li>\n        <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>\n        <li><b>A</b>ppear EFFECTIVE and competent.  Use a confident voice tone and physical mannger.  Make good eye contact.</li>\n        <li><b>N</b>egotiate: Be willing to GIVE TO GET.  Offer and ask for other solutions to the problem.</li>\n        </ul>\n        "
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "GIVE (DEAR MAN, GIVE)",
-        b: "\n        <ul>\n        <li><b>Gentle</b>: BE NICE and respectful.  No attacks.  No threats.  No judging.  No sneering</li>\n        <li><b>Interested</b>: LISTEN and APPEAR INTERESTED in the other person.  Listen to the other person's point of view.</li>\n        <li><b>Validate</b>: With WORDS AND ACTIONS, show that you unerstand the other person's feelings and thoughts about the situation</li>\n        <li><b>Easy mannger</b>: Use a little humor.  SMILE.  Ease the person along.  Be light hearted.  Soft sell.</li>\n        </ul>\n        "
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "Levels of Validation",
-        b: "\n        <ul>\n        <li><b>Pay Attention</b>: Look interested in the other person instead of bored.  No multitasking</li>\n        <li><b>Reflect Back</b>: Say back what you heard the other person say or do.  No judgemental language or tone of voice.</li>\n        <li><b>Don't Read minds</b>: Be sensitive to what is not being said by the other person.  Pay attention to facial expressions, body language.</li>\n        <li><b>Understand</b>: Look for how what the other person is feeling, thinking, or doing makes sense, based on the person's past/present experiences.</li>\n        <li><b>Acknowledge the Valid</b>: Look for how the person's feelings, thinking, or actions are valid responses.</li>\n        <li><b>Show Equality</b>: Be yourself.  Don't \"one up\" or \"one down\" the other person.  Treat the other as an equal</li>\n        </ul>\n        "
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "Keeping Respect for yourself (FAST)",
-        b: "\n        <ul>\n        <li><b>Fair</b>: Be fair to YOURSELF and to the OTHER person.  Remember to VALIDATE YOUR OWN feelings and wishes as well as the other person's</li>\n        <li><b>Apologies</b>: Don't overapologize.  No apologizing for being alive or making a request or having an opinion or disagreeing.  No LOOKING ASHAMED.</li>\n        <li><b>Stick to values</b>: Stick to YOUR OWN values.  Don't sell out your values or integrity for reasons that aren't VERY important.  \"Stick to your guns.\"</li>\n        <li><b>Truthful</b>: Don't lie.  Don't act helpless when you are not.  Don't exaggerate or make up excuses.</li>\n        </ul>\n        "
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "Dialectics",
-        b: "\n        <ol>\n        <li><b>The universe is filled with opposing sides/opposing forces</b></li>\n        <li><b>Everything and every person is connected in some way</b></li>\n        <li><b>Change is the only constant</b></li>\n        <li><b>Change is transactional</b></li>\n        </ol>\n        "
-    },
-    {
-        category: "Interpersonal Effectiveness",
-        a: "Strategies to change behavior",
-        b: "\n        <ul>\n        <li><b>Positive</b> reinforcement = positive consequences (reward)\n        <li><b>Negative</b> reinforcement = removal of negative events (relief)\n        <li><b>Shaping</b> = Reinforcing small steps toward the behavior you want\n        <li><b>Extinction</b> = Stopping an ongoing reinforcement of behavior\n        <li><b>Satiation</b> = Providing relief or what is wanted before the behavior occurs\n        <li><b>Punishment</b> = An aversive consequence that decreases a behavior\n        </ul>\n        "
-    },
-    {
-        category: "Emotion Regulation",
-        a: "Check the facts",
-        b: "Checkout whether your emotional reactions fit the facts of the situation.  Changing your beliefs and assumptions to fit the facts can help you change your emotional reactions to situations"
-    },
-    {
-        category: "Emotion Regulation",
-        a: "Opposite Action",
-        b: "When your emotions do not fit the facts, or when acting on your emotions is not effective, acting opposite (all the way) will change your emotional reactions"
-    },
-    {
-        category: "Emotion Regulation",
-        a: "Problem Solving",
-        b: "When the facts themselves are the problem, solving the problem will reduce the frequency of negative emotions."
-    },
-    {
-        category: "Emotion Regulation",
-        a: "ABC PLEASE",
-        b: "\n        <ul>\n        <li><b>A</b>ccumulate positive emotions.\n        <li><b>B</b>uild mastery\n        <li><b>C</b>ope ahead of time with emotional situations\n        <li><b>PLEASE</b>: Take care of your mind by taking care of your body.  Treat Physical illness, balance eating, avoid mood-altering substances, balance sleep, and get exercise\n        </ul>\n        "
-    },
-    {
-        category: "Emotion Regulation",
-        a: "Mindfulness of current emotion",
-        b: "\n        <ul>\n        <li>Step back and just notice your emotion\n        <li>Experience your emotion as a WAVE, coming and going.\n        <li>Try not to BLOCK or SUPPRESS the emotion\n        <li>Experience the SENSATIONS as fully as you can\n        <li>Do not necessarily ACT on your emotion\n        <li>Radically ACCEPT your emotion\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "STOP",
-        b: "\n        <ul>\n        <li><b>S</b>top: Do not just react.  Stop!  Stay in control!\n        <li><b>T</b>ake a step back: Take a break.  Let go.  Do not let your feelings make you act impulsively.\n        <li><b>O</b>bserve: Notice what is going on inside and outside you.  What is the situation?  What are your thoughts and feelings?  What are others saying or doing?\n        <li><b>P</b>roceed mindfully: Act with awareness.  In deciding what to do, consider your thoughts and feelings, the situation, and other peoples thoughts and feelings.  Think about your goals.  Ask Wise Mind: What actions will make it better or worse?\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Pros and Cons",
-        b: "\n        <img src=\"http://1.bp.blogspot.com/-Rr0VQOCzqVs/UYcXf7ceOGI/AAAAAAAAAC4/Arp5FtCQA7c/s1600/DBT+Pros+and+Cons.png\">\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "TIP skills",
-        b: "\n        <ul>\n        <li><b>T</b>ip the temperature of your face with COLD WATER (to calm down fast)\n        <li><b>I</b>ntense exercise (to calm down your body when it is revved up by emotion)\n        <li><b>P</b>aced Breathing (slow, deep breathing soothes the nervous system and increases oxygen flow)\n        <li><b>P</b>aired muscle relaxation (to calm down by pairing muscle relaxation with breathing out)\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Distracting",
-        b: "\n        <b>Wise Mind ACCEPTS</b>\n        <ul>\n        <li><b>A</b>ctivities\n        <li><b>C</b>ontributing\n        <li><b>C</b>omparisons\n        <li><b>E</b>motions\n        <li><b>P</b>ushing away\n        <li><b>T</b>houghts\n        <li><b>S</b>ensations\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Self-Soothing",
-        b: "\n        <b>FIVE SENSES</b>\n        <ul>\n        <li><b>Vision</b>\n        <li><b>Hearing</b>\n        <li><b>Smell</b>\n        <li><b>Taste</b>\n        <li><b>Touch</b>\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Improving the Moment",
-        b: "\n        <b>IMPROVE</b>\n        <ul>\n        <li><b>I</b>magery\n        <li><b>M</b>eaning\n        <li><b>P</b>rayer or Peace\n        <li><b>R</b>elaxing\n        <li>With <b>O</b>ne thing in the moment\n        <li>With a brief <b>V</b>acation\n        <li>With self-<b>E</b>ncouragement and rethinking the situation\n        </ul>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "What is radical acceptance?",
-        b: "\n        <ol>\n        <li>Radical means all the way, complete and total\n        <li>It is accepting in your mind, your heart, and your body.\n        <li>It's when you stop fighting reality, stop throwing tantrums because reality is not the way you want it, and let go of bitterness\n        </ol>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Half-Smiling",
-        b: "\n        <ol>\n        <li>Relax your face from the top of your head down to your chin and jaw.  Let go of each facial muscle.  Try tensing your facial muscles and letting go\n        <li>Let both corners of your lips go slightly up, just so you can feel them.  A half-smile is slightly upturned lips with a relaxed face.\n        <li>Try to adopt a serene facial expression.  Remember, your face communicates to your brain; your body connects to your mind.\n        </ol>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Willing Hands",
-        b: "\n        <ol>\n        <li>Drop your arms down from your shoulders; keep them straight or bent slightly at the elbows.  With hands unclenched, turn your hands outwards, palms up.\n        <li>Place your hands on your lap or your thighs.  With hands unclenched, turn your hands outward, with palms up and fingers relaxed.\n        <li>Arms by your side, hands unclenched, turn your palms up with fingers relaxed.\n        </ol>\n        "
-    },
-    {
-        category: "Distress Tolerance",
-        a: "Mindfulness of Current Thoughts",
-        b: "\n        <ol>\n        <li>Observe your thoughts\n        <li>Adopt a curious mind\n        <li>Remember: You are not your thoughts\n        <li>Don't block or suppress thoughts\n        </ol>\n        "
-    }
-];
-
+module.exports = "<ion-header>\n  <ion-toolbar>\n    <ion-title>\n      {{ categoryContent }}\n    </ion-title>\n  </ion-toolbar>\n</ion-header>\n\n<ion-content>\n  <div id=\"flash-cards\" (swipeLeft)=\"swipeLeft()\" (swipeRight)=\"swipeRight()\">\n    <div class=\"flip-container\" (click)=\"flip()\" [class.flipped]=\"flipped\">\n      <div class=\"flipper\">\n    \n        <div class=\"front\" [innerHtml]=\"frontContent\"></div>\n    \n        <div class=\"back\" [innerHtml]=\"backContent\"></div>\n    \n      </div>\n    </div>\n  </div>\n</ion-content>\n\n<ion-tab-bar slot=\"bottom\">\n  <ion-tab-button (click)=\"clickPrevious()\">\n    <ion-icon name=\"arrow-round-back\"></ion-icon>\n    <ion-label>Previous</ion-label>\n  </ion-tab-button>\n\n  <ion-tab-button (click)=\"clickSearch()\">\n    <ion-icon name=\"search\"></ion-icon>\n    <ion-label>Search</ion-label>\n  </ion-tab-button>\n\n  <ion-tab-button (click)=\"clickNext()\">\n    <ion-icon name=\"arrow-round-forward\"></ion-icon>\n    <ion-label>Next</ion-label>\n  </ion-tab-button>\n</ion-tab-bar>\n"
 
 /***/ }),
 
@@ -187,7 +46,7 @@ var CardPageModule = /** @class */ (function () {
                 _angular_forms__WEBPACK_IMPORTED_MODULE_5__["FormsModule"],
                 _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forChild([{ path: '', component: _card_page__WEBPACK_IMPORTED_MODULE_6__["CardPage"] }])
             ],
-            declarations: [_card_page__WEBPACK_IMPORTED_MODULE_6__["CardPage"]]
+            declarations: [_card_page__WEBPACK_IMPORTED_MODULE_6__["CardPage"]],
         })
     ], CardPageModule);
     return CardPageModule;
@@ -221,30 +80,44 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
-/* harmony import */ var src_app_state_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! src/app/state.service */ "./src/app/state.service.ts");
-/* harmony import */ var _card_data__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./card.data */ "./src/app/cards/card.data.ts");
+/* harmony import */ var _ionic_angular__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ionic/angular */ "./node_modules/@ionic/angular/dist/fesm5.js");
+/* harmony import */ var src_app_state_service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! src/app/state.service */ "./src/app/state.service.ts");
+/* harmony import */ var _card_data__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./card.data */ "./src/app/cards/card.data.ts");
+/* harmony import */ var _search_search_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../search/search.component */ "./src/app/search/search.component.ts");
+
+
 
 
 
 
 
 var CardPage = /** @class */ (function () {
-    function CardPage(state, sanitizer) {
+    function CardPage(state, sanitizer, modalController) {
         var _this = this;
         this.state = state;
         this.sanitizer = sanitizer;
+        this.modalController = modalController;
         this.index = 0;
         this.flipped = false;
-        var randomizedData = this.shuffle(_card_data__WEBPACK_IMPORTED_MODULE_4__["data"]);
+        var randomizedData = this.shuffle(_card_data__WEBPACK_IMPORTED_MODULE_5__["data"]);
         this.frontContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].a);
         this.backContent = this.sanitizer.bypassSecurityTrustHtml(randomizedData[this.index].b);
         this.categoryContent = randomizedData[this.index].category;
         state.subject.subscribe(function (f) {
-            if (f === "next") {
-                _this.index = _this.index + 1 >= _card_data__WEBPACK_IMPORTED_MODULE_4__["data"].length ? 0 : _this.index + 1;
+            if (!f) {
+            }
+            else if (f === "next") {
+                _this.index = _this.index + 1 >= _card_data__WEBPACK_IMPORTED_MODULE_5__["data"].length ? 0 : _this.index + 1;
             }
             else if (f === "previous") {
-                _this.index = _this.index - 1 < 0 ? _card_data__WEBPACK_IMPORTED_MODULE_4__["data"].length - 1 : _this.index - 1;
+                _this.index = _this.index - 1 < 0 ? _card_data__WEBPACK_IMPORTED_MODULE_5__["data"].length - 1 : _this.index - 1;
+            }
+            else if (f === "close") {
+                _this.modalController.dismiss();
+            }
+            else {
+                _this.modalController.dismiss();
+                _this.index = randomizedData.findIndex(function (rd) { return rd.a === f; });
             }
             _this.flipped = false;
             _this.frontContent = _this.sanitizer.bypassSecurityTrustHtml(randomizedData[_this.index].a);
@@ -261,7 +134,8 @@ var CardPage = /** @class */ (function () {
     CardPage.prototype.flip = function () {
         this.flipped = !this.flipped;
     };
-    CardPage.prototype.shuffle = function (array) {
+    CardPage.prototype.shuffle = function (origArray) {
+        var array = origArray.slice();
         var currentIndex = array.length, temporaryValue, randomIndex;
         // While there remain elements to shuffle...
         while (0 !== currentIndex) {
@@ -281,9 +155,26 @@ var CardPage = /** @class */ (function () {
     CardPage.prototype.clickNext = function () {
         this.state.update("next");
     };
+    CardPage.prototype.clickSearch = function () {
+        return tslib__WEBPACK_IMPORTED_MODULE_0__["__awaiter"](this, void 0, void 0, function () {
+            var modal;
+            return tslib__WEBPACK_IMPORTED_MODULE_0__["__generator"](this, function (_a) {
+                switch (_a.label) {
+                    case 0: return [4 /*yield*/, this.modalController.create({
+                            component: _search_search_component__WEBPACK_IMPORTED_MODULE_6__["SearchComponent"]
+                        })];
+                    case 1:
+                        modal = _a.sent();
+                        return [4 /*yield*/, modal.present()];
+                    case 2: return [2 /*return*/, _a.sent()];
+                }
+            });
+        });
+    };
     CardPage.ctorParameters = function () { return [
-        { type: src_app_state_service__WEBPACK_IMPORTED_MODULE_3__["StateService"] },
-        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] }
+        { type: src_app_state_service__WEBPACK_IMPORTED_MODULE_4__["StateService"] },
+        { type: _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"] },
+        { type: _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["ModalController"] }
     ]; };
     CardPage = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -291,46 +182,11 @@ var CardPage = /** @class */ (function () {
             template: __webpack_require__(/*! raw-loader!./card.page.html */ "./node_modules/raw-loader/index.js!./src/app/cards/card.page.html"),
             styles: [__webpack_require__(/*! ./card.page.scss */ "./src/app/cards/card.page.scss")]
         }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_state_service__WEBPACK_IMPORTED_MODULE_3__["StateService"],
-            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"]])
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [src_app_state_service__WEBPACK_IMPORTED_MODULE_4__["StateService"],
+            _angular_platform_browser__WEBPACK_IMPORTED_MODULE_2__["DomSanitizer"],
+            _ionic_angular__WEBPACK_IMPORTED_MODULE_3__["ModalController"]])
     ], CardPage);
     return CardPage;
-}());
-
-
-
-/***/ }),
-
-/***/ "./src/app/state.service.ts":
-/*!**********************************!*\
-  !*** ./src/app/state.service.ts ***!
-  \**********************************/
-/*! exports provided: StateService */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "StateService", function() { return StateService; });
-/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
-/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
-
-
-
-var StateService = /** @class */ (function () {
-    function StateService() {
-        this.subject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](null);
-    }
-    StateService.prototype.update = function (action) {
-        this.subject.next(action);
-    };
-    StateService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
-        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
-            providedIn: 'root'
-        }),
-        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
-    ], StateService);
-    return StateService;
 }());
 
 
