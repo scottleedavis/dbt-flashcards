@@ -678,8 +678,8 @@ const data = [
         <ul>
         <li><b>Gentle</b>: BE NICE and respectful.  No attacks.  No threats.  No judging.  No sneering</li>
         <li><b>Interested</b>: LISTEN and APPEAR INTERESTED in the other person.  Listen to the other person's point of view.</li>
-        <li><b>Validate</b>: With WORDS AND ACTIONS, show that you unerstand the other person's feelings and thoughts about the situation</li>
-        <li><b>Easy mannger</b>: Use a little humor.  SMILE.  Ease the person along.  Be light hearted.  Soft sell.</li>
+        <li><b>Validate</b>: With WORDS AND ACTIONS, show that you understand the other person's feelings and thoughts about the situation</li>
+        <li><b>Easy manner</b>: Use a little humor.  SMILE.  Ease the person along.  Be light hearted.  Soft sell.</li>
         </ul>
         `
     },

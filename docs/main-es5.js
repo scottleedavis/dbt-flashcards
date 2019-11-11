@@ -666,7 +666,7 @@ var data = [
     {
         category: "Interpersonal Effectiveness",
         a: "GIVE (DEAR MAN, GIVE)",
-        b: "\n        <ul>\n        <li><b>Gentle</b>: BE NICE and respectful.  No attacks.  No threats.  No judging.  No sneering</li>\n        <li><b>Interested</b>: LISTEN and APPEAR INTERESTED in the other person.  Listen to the other person's point of view.</li>\n        <li><b>Validate</b>: With WORDS AND ACTIONS, show that you unerstand the other person's feelings and thoughts about the situation</li>\n        <li><b>Easy mannger</b>: Use a little humor.  SMILE.  Ease the person along.  Be light hearted.  Soft sell.</li>\n        </ul>\n        "
+        b: "\n        <ul>\n        <li><b>Gentle</b>: BE NICE and respectful.  No attacks.  No threats.  No judging.  No sneering</li>\n        <li><b>Interested</b>: LISTEN and APPEAR INTERESTED in the other person.  Listen to the other person's point of view.</li>\n        <li><b>Validate</b>: With WORDS AND ACTIONS, show that you understand the other person's feelings and thoughts about the situation</li>\n        <li><b>Easy manner</b>: Use a little humor.  SMILE.  Ease the person along.  Be light hearted.  Soft sell.</li>\n        </ul>\n        "
     },
     {
         category: "Interpersonal Effectiveness",
