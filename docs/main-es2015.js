@@ -662,7 +662,7 @@ const data = [
         b: `
         <ul>
         <li><b>D</b>escribe the current situation.  Stick to the facts</li>
-        <li><b>E</b>express your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
+        <li><b>E</b>xpress your FEELINGS and OPINIONS about the situation.  Don't assume the other person knows how you feel</li>
         <li><b>A</b>ssert yourself by ASKING for what you want or SAYING NO clearly.  Don't assume others will figure out what you want</li>
         <li><b>R</b>einforce the person ahead of time by expaining postive effect of getting what you want or need.</li>
         <li><b>M</b>indfull: Keep your focus ON YOUR GOALS.  Maintain your position.  Don't be distracted.</li>
